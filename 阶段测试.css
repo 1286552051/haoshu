@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.maxbig {
+  width: 375px;
+  height: 2496px;
+  margin: 0 auto;
+  background-color: #011957;
+  overflow: hidden;
+}
+.maxbig .header {
+  width: 375px;
+  overflow: hidden;
+}
+.maxbig .div_2 {
+  width: 375px;
+  height: 260px;
+  position: relative;
+}
+.maxbig .div_2 ul {
+  width: 375px;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+.maxbig .div_2 a {
+  text-decoration: none;
+}
+.maxbig .div_2 li {
+  list-style: none;
+  float: left;
+  width: 82px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #6745b5;
+  margin: 10px 10px 0px 0px;
+  border-radius: 10px;
+  z-index: 9999;
+  font-size: 14px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.maxbig .div_2 li span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #011957;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 8px;
+  position: absolute;
+  top: 5px;
+  left: 60px;
+}
+.maxbig .div_3 {
+  width: 375px;
+  height: 260px;
+  position: relative;
+}
+.maxbig .div_3 ul {
+  width: 375px;
+  position: absolute;
+  top: -40px;
+  left: 22px;
+}
+.maxbig .div_3 ul li {
+  float: left;
+  list-style: none;
+  margin: 10px 30px 0px 0px;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 150px;
+  height: 245px;
+  background-color: #fff;
+  position: relative;
+  color: black;
+}
+.maxbig .div_3 ul li .jia {
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+}
+.maxbig .div_3 ul li .dian {
+  width: 38px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  top: 195px;
+  left: 100px;
+}
+.maxbig .div_3 ul li .gang {
+  text-decoration: line-through;
+}
